@@ -1,21 +1,27 @@
 .header 
-
+    display: flex
+    flex-direction: row 
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: flex-start 
     &_mod 
-        min-height: 104px
-        padding: 31px 10%
+        min-height: 74px
 
     
     &__logo 
-        width: 151px
+        width: 140px
         img 
             width: 100%
-        
-    
     &__items 
         display: flex
+        list-style-type: none
 
-    
     &__item 
-        color: #635c73
         a 
-            color: #635c73
+            color: #263742
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 400
+            line-height: 85px
+            text-transform: uppercase
+            margin-left: 40px
