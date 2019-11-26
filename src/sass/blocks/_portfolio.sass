@@ -65,6 +65,7 @@
         &_wrapper
             &__img
                 img
+                    max-height: 336px
                     max-width: 100%
             &__descr 
                 width: 40%
@@ -75,3 +76,23 @@
             &__text
                 width: 260px
                 font-size: 13px
+
+@media (max-width: 768px) 
+    .portfolio
+        padding-bottom: 20px
+        &_wrapper
+            &__img
+                img
+                    max-height: 336px
+                    max-width: 100%
+            &__descr 
+                width: 42%
+            &__title
+                font-size: 30px
+            &__subtitle
+                font-size: 13px
+            &__text
+                width: 220px
+                font-size: 12px        
+            &__link
+                margin-top: 20px
