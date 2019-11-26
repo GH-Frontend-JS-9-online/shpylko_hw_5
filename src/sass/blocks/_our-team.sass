@@ -38,25 +38,25 @@
         flex-direction: column
         width: 156px
         margin-left: 20px
-    &__descr-title
-        // width: 58px
-        // height: 17px
-        color: #314a5b
-        // font-family: Montserrat
-        font-size: 22px
-        font-weight: 700
-        line-height: 53.86px
-        text-transform: uppercase
-        // Text style for "J, oey"
-        letter-spacing: -0.33px
-    &__descr-subtitle
-        // width: 99px
-        // height: 15px
-        color: #f0454c
-        font-family: "Open Sans"
-        font-size: 14px
-        font-weight: 400
-        line-height: 20px
+        &-title
+            // width: 58px
+            // height: 17px
+            color: #314a5b
+            // font-family: Montserrat
+            font-size: 22px
+            font-weight: 700
+            line-height: 53.86px
+            text-transform: uppercase
+            // Text style for "J, oey"
+            letter-spacing: -0.33px
+        &-subtitle
+            // width: 99px
+            // height: 15px
+            color: #f0454c
+            font-family: "Open Sans"
+            font-size: 14px
+            font-weight: 400
+            line-height: 20px
     &__text
         // width: 134px
         // height: 32px
@@ -83,3 +83,19 @@
             height: 83px
             img 
                 width: 100%
+
+@media (max-width: 992px) 
+    .our-team 
+        &__title
+            font-size: 30px
+        &__logo
+            width: 55px
+            height: 55px
+            img 
+                width: 100%
+        &__descr
+            width: 130px
+            margin-left: 14px
+            &-title
+                font-size: 20px
+        

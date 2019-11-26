@@ -11,9 +11,8 @@
         width: 30%
         &__subtitle>h2
             max-width: 220px
-            // height: 46px
+            height: 46px
             color: #465065
-            // font-family: Montserrat
             font-size: 26px
             font-weight: 700
             line-height: 36px
@@ -21,8 +20,6 @@
             span
                 color: #f0454c
         &__text
-            // width: 255px
-            // height: 60px
             color: #9aa0ab
             font-family: "Open Sans"
             font-size: 15px
@@ -37,3 +34,17 @@
             text-transform: uppercase
             cursor: pointer
             margin-top: 29px
+
+@media (max-width: 992px) 
+    .snippet
+        padding-bottom: 60px
+        &__items
+        .snippet-block
+            // width: 25%
+            &__subtitle>h2
+                max-width: 94%
+                font-size: 20px
+                line-height: 26px
+            &__text
+                max-width: 88%
+                font-size: 14px
