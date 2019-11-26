@@ -13,13 +13,19 @@
     &__items 
         display: flex
         list-style-type: none
+        margin-left: 32%
 
     &__item 
         a 
             color: #263742
             font-family: Montserrat
             font-size: 14px
-            font-weight: 400
+            font-weight: 500
             line-height: 85px
             text-transform: uppercase
             margin-left: 40px
+
+@media (max-width: 1200px) 
+    .header 
+        &__items 
+            margin-left: 20%

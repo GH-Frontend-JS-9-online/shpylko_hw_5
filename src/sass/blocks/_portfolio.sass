@@ -1,7 +1,7 @@
 .portfolio
     min-height: 406px
     background-color: white
-    padding: 0 305px 105px 219px
+    padding: 0px 0px 105px 0px
     &_wrapper
         display: flex
         justify-content: space-between
@@ -10,30 +10,24 @@
         align-items: flex-start
         &__img
             display: flex
-            width: 30% 
+            width: 50% 
         &__descr 
             display: flex
             flex-direction: column
-            width: 50%
+            width: 70%
             padding-top: 40px
         &__title
-            // width: 233px
-            // height: 30px
             color: #314a5b
             font-family: Montserrat
             font-size: 40px
             font-weight: 700
             line-height: 46px
             text-transform: uppercase
-            // Text style for "p, ortfoli"
             letter-spacing: -1.2px
-            // Text style for "."
-                span
+            span
                 color: #f0454c
                 letter-spacing: -1.2px
         &__subtitle
-            // width: 223px
-            // height: 17px
             color: #314a5b
             font-family: "Open Sans"
             font-size: 16px
@@ -55,3 +49,13 @@
             text-transform: uppercase
             cursor: pointer
             margin-top: 29px
+
+@media (max-width: 1200px)
+    .portfolio
+        &_wrapper
+            &__img
+                width: 55% 
+            &__descr 
+                width: 45%
+
+    
